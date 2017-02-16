@@ -3,7 +3,7 @@ gulp-tasks
 logs
 
 # typings
-typings
+#typings
 
 # testing
 karma.conf.js
