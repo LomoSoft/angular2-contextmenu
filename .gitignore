@@ -39,7 +39,7 @@ jspm_packages
 .DS_Store
 
 # type script artifacts
-#/typings
+/typings
 
 # WebStorm
 .idea
@@ -55,10 +55,13 @@ jspm_packages
 /demo/**/*.js
 /demo/**/*.js.map
 /demo/**/*.d.ts
-/src/**/*.*
+#/src/**/*.js
+#/src/**/*.js.map
+#/src/**/*.d.ts
+#/src/**/*.*
 /compiled
-#*.metadata.json
-#angular2-contextmenu.js
+*.metadata.json
+angular2-contextmenu.js
 #angular2-contextmenu.d.ts
 #angular2-contextmenu.js.map
 /logs
