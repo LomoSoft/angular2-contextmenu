@@ -79,6 +79,9 @@ export class ContextMenuComponent implements AfterContentInit {
       this.useBootstrap4 = options.useBootstrap4;
     }
     _contextMenuService.show.subscribe(menuEvent => this.onMenuEvent(menuEvent));
+    _contextMenuService.hide.subscribe(() => {
+        this.hideMenu();
+    });
   }
 
   get locationCss(): any {
